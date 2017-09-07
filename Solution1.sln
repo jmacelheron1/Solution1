@@ -3,7 +3,58 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(1)", "..\..\Visual Studio 2015\WebSites\WebSite1\", "{8294F118-B443-4ACF-A484-98CB296F0CF1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_7230"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Visual Studio 2015\WebSites\WebSite1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7230\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_7230"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Visual Studio 2015\WebSites\WebSite1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7230\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "7230"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Github", "Github\", "{D1B2D86C-7325-4C61-BAB7-CA117CE4B8EB}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_7390"
+		Debug.AspNetCompiler.PhysicalPath = "Github\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7390\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_7390"
+		Release.AspNetCompiler.PhysicalPath = "Github\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_7390\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "7390"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8294F118-B443-4ACF-A484-98CB296F0CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8294F118-B443-4ACF-A484-98CB296F0CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1B2D86C-7325-4C61-BAB7-CA117CE4B8EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1B2D86C-7325-4C61-BAB7-CA117CE4B8EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
